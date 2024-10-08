@@ -23,7 +23,7 @@ namespace Arv
 
         static double DotProduct(Better2DVector v1, Better2DVector v2)
         {
-            return (v1.X * v1.Y) + (v2.Y * v2.X);
+            return (v1.X * v2.X) + (v1.Y * v2.Y);
         }
     } 
 }
